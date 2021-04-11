@@ -132,7 +132,7 @@ background-size: 350px
 # Historia de la computadora
 
 --
-- ### A mediados del siglo XIX, **George Boole** introdujo el [álgebra booleana](https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole), la cual trata sobre las operaciones (ej. AND, OR, NOT) en valores lógicos (Verdadero o Falso). Esto constituye el fundamento teórico en el que se basan los circuitos digitales, además de tener múltiples aplicaciones en matemáticas, como en teoría de conjuntos.
+- ### A mediados del siglo XIX, **George Boole** introdujo el [álgebra booleana](https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole), la cual trata sobre las operaciones (ej. AND, OR, NOT) en valores lógicos (Verdadero o Falso). Esto constituye el fundamento teórico en el que se basan los circuitos digitales, además de tener múltiples aplicaciones en matemáticas como, por ejemplo, en teoría de conjuntos.
 
 --
 - ### En la primera mitad del XX, **Claude Shannon** demostró como el álgebra booleana podía ser aplicada al diseño de circuitos. Es considerado el padre de la [teoría de información](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_la_informaci%C3%B3n), la cual estudia la cuantificación, el almacenamiento y la comunicación de información. También sentó las bases matemáticas de la criptografía.
@@ -169,7 +169,7 @@ background-size: 350px
 # Primeras computadoras electrónicas
 
 --
-- ### Con base en las ideas de Turing, las computadoras [Colossus](https://es.wikipedia.org/wiki/Colossus) fueron construídas durante la Segunda Guerra Mundial en el Reino Unido para descifrar mensajes codificados. A pesar de que se consideran de las primeras computadoras digitales electrónicas programables, esta programación se realizaba a través de componentes de *hardware*, como interruptores y enchufes, y no con un [programa almacenado](https://es.wikipedia.org/wiki/Computador_de_programa_almacenado).
+- ### Con base en las ideas de Turing, las computadoras [Colossus](https://es.wikipedia.org/wiki/Colossus) fueron construídas durante la Segunda Guerra Mundial en el Reino Unido para descifrar mensajes codificados. A pesar de que se consideran de las primeras computadoras digitales electrónicas programables, su programación se realizaba a través de componentes de *hardware*, como interruptores y enchufes, y no con un [programa almacenado](https://es.wikipedia.org/wiki/Computador_de_programa_almacenado).
 
 --
 - ### [ENIAC (Electronic Numerical Integrator and Computer)](https://es.wikipedia.org/wiki/ENIAC) es considerada la primera computadora programable digital de propósito general. Era capaz de seguir el modelo de la máquina de Turing, por lo que era [Turing-completa](https://es.wikipedia.org/wiki/Turing_completo). Fue inicialmente diseñada para calcular tablas de tiro de artillería para el ejército de Estados Unidos. Su construcción se completó en 1946. Podía resolver 5000 sumas o 300 multiplicaciones en 1 segundo.
