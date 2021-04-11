@@ -1,5 +1,5 @@
 ---
-title: "Arquitectura de computadoras"
+title: "Arquitectura de computadoras y lenguajes de programación"
 author: "Manuel Vargas"
 institute: "UCR"
 date: "2021-04-09"
@@ -17,7 +17,7 @@ output:
 class: title-slide, right, top
 background-image: url(img/arquitectura-vonneumann.jpg)
 background-position: center
-background-size: 450px
+background-size: 350px
 
 .right-column[
 # `r rmarkdown::metadata$title`
@@ -83,7 +83,7 @@ background-size: 450px
 
 - Los CI procesan [información digital](https://es.wikipedia.org/wiki/Se%C3%B1al_digital) (que usa valores discretos), la cual generalmente es binaria (i.e. de dos valores).
 
-- Una computadora, usa dos estados correspondientes a **dos niveles de tensión eléctrica: alto y bajo**. Estos estados se representan con: **0 y 1**. Esto facilita la aplicación de la [lógica binaria](https://es.wikipedia.org/wiki/L%C3%B3gica_binaria) y de la [aritmética binaria](https://es.wikipedia.org/wiki/Sistema_binario).
+- Los CI de una computadora procesan dos estados correspondientes a **dos niveles de tensión eléctrica: alto y bajo**. Estos estados se representan con **0 y 1**. Esto facilita la aplicación de la [lógica binaria](https://es.wikipedia.org/wiki/L%C3%B3gica_binaria) y de la [aritmética binaria](https://es.wikipedia.org/wiki/Sistema_binario).
 ]
 
 .pull-right[
@@ -124,7 +124,7 @@ background-size: 450px
 # Historia de la computadora
 
 --
-- ### A mediados del siglo XIX, **George Boole** introdujo el [álgebra booleana](https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole), la cual trata sobre las operaciones (ej. AND, OR, NOT) en valores lógicos (Verdadero o Falso). Esto constituye el fundamente teórico en el que se basan los circuitos digitales, además de tener múltiples aplicaciones en matemáticas, como en teoría de conjuntos.
+- ### A mediados del siglo XIX, **George Boole** introdujo el [álgebra booleana](https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole), la cual trata sobre las operaciones (ej. AND, OR, NOT) en valores lógicos (Verdadero o Falso). Esto constituye el fundamento teórico en el que se basan los circuitos digitales, además de tener múltiples aplicaciones en matemáticas, como en teoría de conjuntos.
 
 --
 - ### En la primera mitad del XX, **Claude Shannon** demostró como el álgebra booleana podía ser aplicada al diseño de circuitos. Es considerado el padre de la [teoría de información](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_la_informaci%C3%B3n), la cual estudia la cuantificación, el almacenamiento y la comunicación de información. También sentó las bases matemáticas de la criptografía.
@@ -161,7 +161,7 @@ background-size: 450px
 # Primeras computadoras electrónicas
 
 --
-- ### Con base en las ideas de Turing, las computadoras [Colossus](https://es.wikipedia.org/wiki/Colossus) fueron construídas durante la Segunda Guerra Mundial en el Reino Unido para descifrar mensajes codificados. A pesar de que se consideran de las primeras computadoras digitales electrónicas programables, su programación se realizaba a través de interruptores y enchufes, y no con un [programa almacenado](https://es.wikipedia.org/wiki/Computador_de_programa_almacenado).
+- ### Con base en las ideas de Turing, las computadoras [Colossus](https://es.wikipedia.org/wiki/Colossus) fueron construídas durante la Segunda Guerra Mundial en el Reino Unido para descifrar mensajes codificados. A pesar de que se consideran de las primeras computadoras digitales electrónicas programables, esta programación se realizaba a través de interruptores y enchufes, y no con un [programa almacenado](https://es.wikipedia.org/wiki/Computador_de_programa_almacenado).
 
 --
 - ### [ENIAC (Electronic Numerical Integrator and Computer)](https://es.wikipedia.org/wiki/ENIAC) es considerada la primera computadora programable digital de propósito general. Era capaz de seguir el modelo de la máquina de Turing, por lo que era [Turing-completa](https://es.wikipedia.org/wiki/Turing_completo). Fue inicialmente diseñada para calcular tablas de tiro de artillería para el ejército de Estados Unidos. Su construcción se completó en 1946. Podía resolver 5000 sumas o 300 multiplicaciones en 1 segundo.
@@ -232,6 +232,7 @@ background-size: 450px
 
 # Diagrama de la arquitectura de von Neumann
 
+--
 <figure>
   <img src="img/arquitectura-vonneumann.jpg" />
   <figcaption>
@@ -240,3 +241,87 @@ background-size: 450px
     </small>
   </figcaption>
 </figure>
+
+---
+
+# Componentes de la arquitectura de von Neumann
+## Memoria principal
+
+--
+- ### Almacena las instrucciones de los programas y los datos que utilizan estos programas.
+
+--
+- ### Es común denominarla como RAM (*Random Access Memory*, Memoria de Acceso Aleatorio), lo que significa que toma el mismo tiempo acceder a cualquier posición de la memoria.
+
+--
+- ### Cada posición de memoria tiene una dirección a la que se hace referencia cuando se desea leer o escribir.
+
+---
+
+# Componentes de la arquitectura de von Neumann
+## Unidad central de procesamiento
+
+--
+- ### La Unidad Central de Procesamiento o CPU (*Central Processing Unit*) se encarga de ejecutar las instrucciones de los programas.
+
+--
+- ### Está compuesta por dos partes:
+  - #### La Unidad de Control: determina cuál es la siguiente instrucción a ejecutar. Contiene memorias temporales de alta velocidad y poca capacidad llamadas registros, para almacenar los operandos y el resultado de las instrucciones.
+  - #### La Unidad de Aritmética y Lógica o ALU (*Arithmetic and Logic Unit*): ejecuta las operaciones aritméticas y lógicas.
+  
+---
+
+# Componentes de la arquitectura de von Neumann
+## Sistemas de entrada y salida
+
+--
+- ### Permiten que la computadora interactúe con el usuario y, en general, con el mundo exterior.
+
+--
+- ### Algunos ejemplos son el teclado y el ratón, como sistemas de entrada, y la pantalla y la impresoras, como sistemas de salida.
+
+---
+
+# Código binario
+
+- ### Los CI de las computadoras usan voltajes bajos y altos para representar dos posibles valores de información: 0 y 1. Este es un sistema binario y cada dígito binario (0 o 1) se denomina *bit* (*binary digit*).
+
+- ### Los bits se agrupan (por ejemplo, en [bytes = 8 bits](https://es.wikipedia.org/wiki/Byte)) para representar elementos de información más complejos, como números más grandes o carácteres de texto. Por ejemplo:
+  - El número decimal ```14``` se representa en binario como ```1110```:  
+```1110``` = ```2^3*1 + 2^2*1 + 2^1*1 + 2^0*0``` = ```8 + 4 + 2 + 0``` = ```14```
+  - La palabra ```bit``` se representa en [código ASCII](https://es.wikipedia.org/wiki/ASCII) como:  
+```01100010 01101001 01110100``` = ```bit```
+
+---
+
+# Lenguaje máquina
+
+--
+- ### El [lenguaje máquina](https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina) es un conjunto de instrucciones binarias interpretables por un CPU. Las instrucciones representan acciones a ser ejecutadas por la computadora. Cada CPU tiene su propio lenguaje máquina. 
+
+--
+- ### Un programa consiste de una secuencia de instrucciones en lenguaje máquina.
+
+--
+- ### Por ejemplo, la siguiente instrucción suma los contenidos de los registros 1 y 2 y almacena el resultado en el registro 6 de un CPU:
+
+<figure>
+  <img src="img/suma-binaria.png" />
+  <figcaption>
+    <small>
+      Instrucción de suma en lenguaje máquina. Fuente <a href="https://en.wikipedia.org/wiki/Machine_code">Machine code - Wikipedia</a>.
+    </small>
+  </figcaption>
+</figure>
+
+---
+
+# Lenguajes de programación
+
+- ### Debido a que programar una computadora en lenguaje máquina es excesivamente lento y complicado, en la década de 1950 comenzaron a crearse lenguajes de programación que, en lugar de unos y ceros, consisten de instrucciones formadas por palabras, usualmente en idioma inglés. Por ejemplo, el siguiente programa en lenguaje [C](https://www.iso.org/standard/74528.html) imprime la hilera de texto ["hello, world\n"](http://helloworldcollection.de/):
+
+<figure>
+  <img src="img/hello-world.png" />
+</figure>
+
+- ### Existe una gran [variedad de lenguajes de programación](https://en.wikipedia.org/wiki/List_of_programming_languages) que han sido creados con diversos fines: científicos, comerciales, educacionales, etc.
