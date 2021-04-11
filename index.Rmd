@@ -118,10 +118,14 @@ background-size: 350px
 - ### Durante el siglo XVII, varios matemáticos construyeron calculadoras mecánicas experimentales capaces de sumar, restar, multiplicar y dividir.  
 
 --
-- ### En la primera mitad del siglo XIX, **Charles Babbage** diseñó la [máquina analítica](https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica), considerada la primera computadora programable. Era una máquina de vapor que contaba con una unidad central de procesamiento, memoria y una impresora.  
+- ### En la primera mitad del siglo XIX, **Charles Babbage** diseñó la [máquina analítica](https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica), considerada la primera computadora programable. Era una máquina de vapor que contaba con una unidad central de procesamiento, memoria y una impresora. Para la entrada de datos y programas estaba previsto el uso de [tarjetas perforadas](https://es.wikipedia.org/wiki/Tarjeta_perforada).  
+
+---
+
+# Historia de la computadora
 
 --
-- ### Por esa misma época, **Ada Lovelace** elaboró sobre el trabajo de Babbage e introdujo varios conceptos utilizados actualmente en programación. Describió como la máquina analítica podría utilizarse para representar información no numérica, como texto, gráficos o música. Es considerada la **primera programadora de computadoras**.  
+- ### Por esa misma época, **Ada Lovelace** elaboró sobre el trabajo de Babbage e introdujo varios conceptos utilizados actualmente en programación. Entre otros aportes, describió en detalle como la máquina analítica podía generar una secuencia de números de Bernoulli. Este desarrollo se considera el [primer algoritmo diseñado para ser ejecutado por una computadora](https://es.wikipedia.org/wiki/Ada_Lovelace#El_primer_programa_de_ordenador) y por este motivo, muchos la consideran la **primera programadora de computadoras**.  
 
 ---
 
@@ -135,7 +139,7 @@ background-size: 350px
 
 ---
 
-# La máquina de Turing
+# La máquina de Touring
 
 --
 - ### Durante el período entre las guerras mundiales, **Allan Turing** desarrolló la [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing), un dispositivo teórico que manipula símbolos de una cinta de acuerdo con una tabla de reglas.
